@@ -49,7 +49,7 @@ export default function Header() {
         animate={controls}
       >
         <img
-          src="https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/23e960a5b44019cd80c266e3589a8837/detailed"
+          src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753881/dollmaker/rfi2iaa1odaxxwgfoypx.svg"
           alt="Logo"
         />
         <div className={styles.nav}>

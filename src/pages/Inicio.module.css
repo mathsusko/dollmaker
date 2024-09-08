@@ -10,7 +10,7 @@ section {
 }
 
 section .bannerHero {
-  background-image: url('https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/bf16765f0b07a2bd4cf0004d6a7c01aa/detailed');
+  background-image: url('https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753881/dollmaker/fl24bosltso8eif878g6.png');
   background-size: cover;
   background-position: center;
   height: 100vh !important; /* Garante altura total da tela */
@@ -141,7 +141,8 @@ section .content .panel {
 }
 
 .secondColumn .boxMusic {
-  background: #fff;
+  background-image: url('https://res.cloudinary.com/dio2dnpmn/image/upload/v1725754329/dollmaker/musicas/hw44weqao8m0boso98ch.png');
+  background-size: cover;
   height: 390px !important;
   width: 390px;
   border-radius: 12px;
@@ -174,7 +175,7 @@ section .content .panel {
   align-items: center;
   margin-top: 120px;
   padding: 120px 0;
-  background-image: url('https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/a73109dd93b06aaa031d29b5a00631b4/detailed');
+  background-image: url('https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/gcd3azii8foqhitoqd2y.png');
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-size: 70%;

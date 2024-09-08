@@ -7,13 +7,13 @@ const musicData = [
     title: 'Dezko - Ascend',
     production: 'Dollmaker Bootleg',
     imageUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/fec062d9acef8da3d4a469938dcdab2e/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725754329/dollmaker/musicas/az38jkma1l844ohtm2tt.png',
     spotifyUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/1bdfcb5c8019ce9021e0ae496994455a/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/reakd3tsuhlxespv5e9s.png',
     soundcloudUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/06962879aa19e0ae58ec78ec9fe56468/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/guwqklp7omf9amvxm3ox.png',
     audioUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/thumbnails/transform/v1/video/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGR1XzEw/v1/ZG9sbG1ha2VyL211c2ljYXMvYXVkaW8veXV2d3hnZzN0aW4zMTh1azIycjU=/template_primary',
+      'https://res.cloudinary.com/dio2dnpmn/video/upload/v1725766201/dollmaker/musicas/audio/yuvwxgg3tin318uk22r5.mp3',
     spotify:
       'https://open.spotify.com/intl-pt/artist/7dGmK4sImWkq5ClORKQwIL?si=b6stSiSwR7S57vko92d-YQ',
     sound: 'https://soundcloud.com/dollmakerlive'
@@ -22,13 +22,13 @@ const musicData = [
     title: 'Just Sound',
     production: 'Dollmaker',
     imageUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/7eb1db625879ea37664baeac6062c50b/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725754332/dollmaker/musicas/ks2hsr8pzo5fg6r5nekw.png',
     spotifyUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/1bdfcb5c8019ce9021e0ae496994455a/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/reakd3tsuhlxespv5e9s.png',
     soundcloudUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/06962879aa19e0ae58ec78ec9fe56468/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/guwqklp7omf9amvxm3ox.png',
     audioUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/thumbnails/transform/v1/video/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGR1XzEw/v1/ZG9sbG1ha2VyL211c2ljYXMvYXVkaW8vc3FhY2M4anppZGx6MnVwbGx1aGo=/template_primary',
+      'https://res.cloudinary.com/dio2dnpmn/video/upload/v1725766276/dollmaker/musicas/audio/sqacc8jzidlz2uplluhj.mp3',
     spotify:
       'https://open.spotify.com/intl-pt/artist/7dGmK4sImWkq5ClORKQwIL?si=b6stSiSwR7S57vko92d-YQ',
     sound: 'https://soundcloud.com/dollmakerlive'
@@ -37,13 +37,13 @@ const musicData = [
     title: 'No Light',
     production: 'Dollmaker',
     imageUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/fc3ab1743ab79d85997f67ad2cb23713/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725754329/dollmaker/musicas/e9rk6y1zg5wdltvsrd93.png',
     spotifyUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/1bdfcb5c8019ce9021e0ae496994455a/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/reakd3tsuhlxespv5e9s.png',
     soundcloudUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/06962879aa19e0ae58ec78ec9fe56468/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/guwqklp7omf9amvxm3ox.png',
     audioUrl:
-      'https://res.cloudinary.com/dio2dnpmn/video/upload/v1725766296/dollmaker/musicas/audio/l8olvchf5vd396wrhkts.mp4',
+      'https://res.cloudinary.com/dio2dnpmn/video/upload/v1725766296/dollmaker/musicas/audio/l8olvchf5vd396wrhkts.mp3',
     spotify:
       'https://open.spotify.com/intl-pt/artist/7dGmK4sImWkq5ClORKQwIL?si=b6stSiSwR7S57vko92d-YQ',
     sound: 'https://soundcloud.com/dollmakerlive'
@@ -52,13 +52,13 @@ const musicData = [
     title: 'On My Time',
     production: 'Dollmaker - Mashup Project',
     imageUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/b8367abefa613b65d3a956944368f284/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725754329/dollmaker/musicas/ovsahoym2gxp2zxrkvtx.png',
     spotifyUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/1bdfcb5c8019ce9021e0ae496994455a/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/reakd3tsuhlxespv5e9s.png',
     soundcloudUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/06962879aa19e0ae58ec78ec9fe56468/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/guwqklp7omf9amvxm3ox.png',
     audioUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/thumbnails/transform/v1/video/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGR1XzEw/v1/ZG9sbG1ha2VyL211c2ljYXMvYXVkaW8vbXJvZWFzNnJmajVmeXEyNG10c2M=/template_primary',
+      'https://res.cloudinary.com/dio2dnpmn/video/upload/v1725766314/dollmaker/musicas/audio/mroeas6rfj5fyq24mtsc.mp3',
     spotify:
       'https://open.spotify.com/intl-pt/artist/7dGmK4sImWkq5ClORKQwIL?si=b6stSiSwR7S57vko92d-YQ',
     sound: 'https://soundcloud.com/dollmakerlive'
@@ -67,13 +67,13 @@ const musicData = [
     title: 'Trust',
     production: 'Dollmaker & Mr Kane',
     imageUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/438af5d58c43be2cc5c74328cc970695/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725754329/dollmaker/musicas/takyqfez3vr7fe3p9wdw.png',
     spotifyUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/1bdfcb5c8019ce9021e0ae496994455a/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/reakd3tsuhlxespv5e9s.png',
     soundcloudUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/06962879aa19e0ae58ec78ec9fe56468/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/guwqklp7omf9amvxm3ox.png',
     audioUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/thumbnails/transform/v1/video/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGR1XzEw/v1/ZG9sbG1ha2VyL211c2ljYXMvYXVkaW8vYXNqbHY2amwxYnp5aWp3cG1icDg=/template_primary',
+      'https://res.cloudinary.com/dio2dnpmn/video/upload/v1725766334/dollmaker/musicas/audio/asjlv6jl1bzyijwpmbp8.mp3',
     spotify:
       'https://open.spotify.com/intl-pt/artist/7dGmK4sImWkq5ClORKQwIL?si=b6stSiSwR7S57vko92d-YQ',
     sound: 'https://soundcloud.com/dollmakerlive'
@@ -82,13 +82,13 @@ const musicData = [
     title: 'Children',
     production: 'Dollmaker Bootleg',
     imageUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/15dddf0ffc68affef5ec11bcfeaa6834/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725754329/dollmaker/musicas/hw44weqao8m0boso98ch.png',
     spotifyUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/1bdfcb5c8019ce9021e0ae496994455a/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/reakd3tsuhlxespv5e9s.png',
     soundcloudUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/06962879aa19e0ae58ec78ec9fe56468/detailed',
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/guwqklp7omf9amvxm3ox.png',
     audioUrl:
-      'https://res-console.cloudinary.com/dio2dnpmn/thumbnails/transform/v1/video/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGR1XzEw/v1/ZG9sbG1ha2VyL211c2ljYXMvYXVkaW8vdHNweHRjZm13MW82eW16Z3Vkb3g=/template_primary',
+      'https://res.cloudinary.com/dio2dnpmn/video/upload/v1725766357/dollmaker/musicas/audio/tspxtcfmw1o6ymzgudox.mp3',
     spotify:
       'https://open.spotify.com/intl-pt/artist/7dGmK4sImWkq5ClORKQwIL?si=b6stSiSwR7S57vko92d-YQ',
     sound: 'https://soundcloud.com/dollmakerlive'

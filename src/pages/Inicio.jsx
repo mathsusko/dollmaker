@@ -68,8 +68,12 @@ export default function Inicio() {
                 <div className={styles.mid}>
                   <p>Acesse minhas plataformas musicais e encontre muito mais!</p>
                   <div className={styles.images}>
-                    <img src="https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/06962879aa19e0ae58ec78ec9fe56468/detailed" />
-                    <img src="https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/1bdfcb5c8019ce9021e0ae496994455a/detailed" />
+                    <a href="https://open.spotify.com/intl-pt/artist/7dGmK4sImWkq5ClORKQwIL?si=b6stSiSwR7S57vko92d-YQ">
+                      <img src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/reakd3tsuhlxespv5e9s.png" />
+                    </a>
+                    <a href="https://soundcloud.com/dollmakerlive">
+                      <img src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/guwqklp7omf9amvxm3ox.png" />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -80,7 +84,7 @@ export default function Inicio() {
               <div className={styles.boxMusic}></div>
 
               <audio
-                src="../src/assets/audio/funky.wav"
+                src="https://res.cloudinary.com/dio2dnpmn/video/upload/v1725766357/dollmaker/musicas/audio/tspxtcfmw1o6ymzgudox.mp3"
                 controls
               ></audio>
             </div>
@@ -89,10 +93,10 @@ export default function Inicio() {
 
         <div className={styles.bio}>
           <div className={styles.logoOne}>
-            <img src="https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/5af31b392849f613fcaefb09db3da35f/detailed" />
+            <img src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753881/dollmaker/cwe7itjcmhzs1qgktkry.png" />
           </div>
           <div className={styles.logoTwo}>
-            <img src="https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/da128cec65adf58a54c9097eb97475cd/detailed" />
+            <img src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753880/dollmaker/hle1m7kqksbmpn4ni7up.png" />
           </div>
           <div className={styles.bioDescription}>
             <h2>Biografia</h2>
