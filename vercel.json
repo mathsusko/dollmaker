@@ -1,16 +1,8 @@
 {
-  "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/assets/fonts/(.*)",
-      "dest": "/assets/fonts/$1"
+      "source": "/fonts/:match*",
+      "destination": "/src/assets/fonts/:match*"
     }
   ]
 }
