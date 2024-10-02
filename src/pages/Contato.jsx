@@ -41,7 +41,7 @@ export default function Contato() {
                   <WhatsappLogo size={32} />
                   <h2>WhatsApp</h2>
                 </div>
-                <p>(41) 99999-9999</p>
+                <p>(41) 99232-9975</p>
               </div>
 
               <div className={styles.info}>
@@ -49,37 +49,37 @@ export default function Contato() {
                   <Envelope size={32} />
                   <h2>E-mail</h2>
                 </div>
-                <p>email@gmail.com</p>
+                <p>dollmakerlive@hotmail.com</p>
               </div>
             </div>
 
             <div className={styles.rowTwo}>
               <p>Redes sociais/Plataformas musicais</p>
               <div className={styles.icons}>
-              <a
-                    href="https://www.instagram.com/dollmakerlive/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.instagramLink}
-                  >
-                    <InstagramLogo size={32} />
-                  </a>
-                  <a
-                    href="https://soundcloud.com/dollmakerlive"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.instagramLink}
-                  >
-                    <SoundcloudLogo size={32} />
-                  </a>
-                  <a
-                    href="https://open.spotify.com/intl-pt/artist/7dGmK4sImWkq5ClORKQwIL?si=X-98tm35QhOOQnoXXyuyfw"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.instagramLink}
-                  >
-                    <SpotifyLogo size={32} />
-                  </a>
+                <a
+                  href="https://www.instagram.com/dollmakerlive/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.instagramLink}
+                >
+                  <InstagramLogo size={32} />
+                </a>
+                <a
+                  href="https://soundcloud.com/dollmakerlive"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.instagramLink}
+                >
+                  <SoundcloudLogo size={32} />
+                </a>
+                <a
+                  href="https://open.spotify.com/intl-pt/artist/7dGmK4sImWkq5ClORKQwIL?si=X-98tm35QhOOQnoXXyuyfw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.instagramLink}
+                >
+                  <SpotifyLogo size={32} />
+                </a>
               </div>
             </div>
           </div>

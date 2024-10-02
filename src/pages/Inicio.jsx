@@ -63,7 +63,7 @@ export default function Inicio() {
                 <div className={styles.head}>
                   <h2>Lançamento</h2>
                   <p>Ouça aqui minha prévia!</p>
-                  <p>The Factory - Vetala</p>
+                  <p>Ethereal Buzz - Dollmaker & Vetala</p>
                 </div>
                 <div className={styles.mid}>
                   <p>Acesse minhas plataformas musicais e encontre muito mais!</p>
@@ -84,7 +84,7 @@ export default function Inicio() {
               <div className={styles.boxMusic}></div>
 
               <audio
-                src="https://res.cloudinary.com/dio2dnpmn/video/upload/v1725766357/dollmaker/musicas/audio/tspxtcfmw1o6ymzgudox.mp3"
+                src="https://res.cloudinary.com/dio2dnpmn/video/upload/v1727877253/MP3_-_Dollmaker_Vetala_-_Ethereal_Buzz_amostra_moobi1.mp3"
                 controls
               ></audio>
             </div>
@@ -144,7 +144,7 @@ export default function Inicio() {
                     <WhatsappLogo size={24} />
                     <p>WhatsApp</p>
                   </div>
-                  <p>(41) 99999-9999</p>
+                  <p>(41) 99232-9975</p>
                 </div>
 
                 <div className={styles.contact}>
@@ -152,7 +152,7 @@ export default function Inicio() {
                     <EnvelopeOpen size={24} />
                     <p>E-mail</p>
                   </div>
-                  <p>email@dollmaker.com.br</p>
+                  <p>dollmakerlive@hotmail.com</p>
                 </div>
               </div>
 
