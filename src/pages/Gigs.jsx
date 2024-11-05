@@ -4,23 +4,45 @@ import { motion } from 'framer-motion'
 
 const GIGS = [
   {
-    date: '20 ABRIL',
-    festival: 'NOME DO FESTIVAL',
-    location: 'Curitiba-PR 🇧🇷',
-    ticketLink: 'https://exemplo.com/ingresso1' // Link do ingresso
+    imageUrl:
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1730809187/dollmaker/newUpgrade/qteaqcn6mzic1ra7hbot.png',
+    date: '16/08/2024',
+    festival: 'MORRETES - LIVE IN A MOMENT',
+    location: 'Morretes-PR 🇧🇷',
+    ticketLink: '' // Link do ingresso
   },
   {
-    date: '20 ABRIL',
-    festival: 'NOME DO FESTIVAL',
-    location: 'Curitiba-PR 🇧🇷',
-    ticketLink: 'https://exemplo.com/ingresso2' 
+    imageUrl:
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1730809186/dollmaker/newUpgrade/pcrid2ukbmj8ae39yty0.png',
+    date: '17/06/2023',
+    festival: 'PROGRESSIVE - PARK ART',
+    location: 'Pinhais-PR 🇧🇷',
+    ticketLink: '' 
   },
   {
-    date: '20 ABRIL',
-    festival: 'NOME DO FESTIVAL',
+    imageUrl:
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1730809186/dollmaker/newUpgrade/dkrwpaqfsdnywi13ijjq.png',
+    date: '21/04/2023',
+    festival: 'DANGHAI - TIME, EDIÇÃO PROG',
     location: 'Curitiba-PR 🇧🇷',
-    ticketLink: 'https://exemplo.com/ingresso3' // Link do ingresso
-  }
+    ticketLink: ''
+  },
+  {
+    imageUrl:
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1730809186/dollmaker/newUpgrade/nu4lkkivdk2k0wfe6k6o.png',
+    date: '13/11/2022',
+    festival: 'TRIADE TRANCE - POCKET',
+    location: 'COLOMBO-PR 🇧🇷',
+    ticketLink: ''
+  },
+  {
+    imageUrl:
+      'https://res.cloudinary.com/dio2dnpmn/image/upload/v1730809186/dollmaker/newUpgrade/gdkx6z4c8llu6vsifbvs.png',
+    date: '09/04/2022',
+    festival: 'PSYCODELICOS VS PESSEGODELIA',
+    location: 'Campo Largo-PR 🇧🇷',
+    ticketLink: '' 
+  },
 ]
 
 const variants = {
@@ -44,12 +66,10 @@ export default function Gigs() {
               viewport={{ once: true, margin: '0px 0px -200px 0px' }}
               variants={variants}
             >
-              <div className={styles.fotoGigs}>
-                <img
-                  src=""
-                  alt=""
-                />
-              </div>
+              <div
+                className={styles.fotoGigs}
+                style={{ backgroundImage: `url(${gig.imageUrl})` }}
+              ></div>
 
               <div className={styles.info}>
                 <div className={styles.dataGigs}>

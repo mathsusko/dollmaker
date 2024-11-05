@@ -4,7 +4,7 @@
 }
 
 .bg {
-  background-image: url('https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753881/dollmaker/rsj25gn2ff4h52ysucvi.png');
+  background-image: url('https://res.cloudinary.com/dio2dnpmn/image/upload/v1730803581/dollmaker/newUpgrade/duo94diasfio0vvqsawf.png');
   background-size: cover;
   background-position: center;
 }
@@ -47,7 +47,8 @@
 .gigs .fotoGigs {
   width: 220px;
   height: 120px;
-  background: #d9d9d9;
+  background-size: cover;
+  background-position: center;
   border-radius: 12px;
 }
 
@@ -72,6 +73,7 @@
 }
 
 .ticketGigs {
+  display: none;
   padding: 16px 40px;
   border-radius: 100px;
   background-color: #3d2a99;

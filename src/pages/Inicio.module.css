@@ -10,11 +10,159 @@ section {
 }
 
 section .bannerHero {
-  background-image: url('https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753881/dollmaker/fl24bosltso8eif878g6.png');
+  background-image: url('https://res.cloudinary.com/dio2dnpmn/image/upload/v1730803581/dollmaker/newUpgrade/duo94diasfio0vvqsawf.png');
   background-size: cover;
   background-position: center;
   height: 100vh !important; /* Garante altura total da tela */
+  position: relative;
+  z-index: -1;
 }
+
+.teste .extra {
+  max-width: 1240px;
+  padding: 0 64px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 64px;
+}
+.extra img {
+  width: 100px;
+  height: fit-content;
+}
+
+.extra .cardzin {
+  display: flex;
+  padding: 8px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(30px);
+  gap: 32px;
+}
+.cardzin .head {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.head .sociais {
+  display: flex;
+  gap: 22px;
+}
+.head .sociais a {
+  color: white;
+  cursor: pointer;
+}
+.head .sociais a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+.cardzin .head p {
+  font-size: 16px;
+}
+.cardzin .button {
+  display: flex;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 100px;
+  border: 1px solid #fff;
+}
+.cardzin .button:hover {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.cardzin .button a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+.cardzin .button a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+
+  .teste .extra {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 390px) {
+
+  .teste .extra {
+    padding: 0 16px !important;
+  }
+
+  .teste .extra .cardzin {
+    width: 100%;
+  }
+}
+
+section .content {
+  margin: 0 auto;
+}
+
+.content .bgFixed {
+  width: 100%;
+  position: relative;
+}
+
+.bgFixed .circleBlue {
+  position: fixed; /* Fixa o elemento na tela */
+  top: -40%; /* Ajuste a posição conforme necessário */
+  left: -10%;
+  width: 800px; /* Define o tamanho do círculo */
+  height: 800px;
+  background: radial-gradient(circle, #424242, rgba(35, 6, 140, 0) 70%);
+  border-radius: 50%; /* Faz o elemento ser um círculo */
+  z-index: -1; /* Fica atrás do conteúdo */
+  opacity: 0.7; /* Opcional: define opacidade */
+  box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bgFixed .circlePurple {
+  position: fixed; /* Fixa o elemento na tela */
+  top: 20%; /* Ajuste a posição conforme necessário */
+  left: 50%;
+  width: 800px; /* Define o tamanho do círculo */
+  height: 800px;
+  background: radial-gradient(circle, #424242, rgba(35, 6, 140, 0) 70%);
+  border-radius: 50%; /* Faz o elemento ser um círculo */
+  z-index: -1; /* Fica atrás do conteúdo */
+  opacity: 0.7; /* Opcional: define opacidade */
+  box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.1);
+}
+section .content .panel {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+  color: #3f3f3f;
+  font-size: 32px;
+  padding: 32px 0;
+  white-space: nowrap; /* Impede quebra de linha */
+  overflow: hidden; /* Oculta overflow horizontal */
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
 
 section .content {
   margin: 0 auto;
@@ -65,13 +213,14 @@ section .content .panel {
   gap: 64px;
   flex-wrap: wrap;
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .firstColumn {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 
 .firstColumn button {
@@ -90,7 +239,7 @@ section .content .panel {
   display: flex;
   flex-direction: column;
   gap: 54px;
-  color: #1e1e1e;
+  color: #fff;
   font-stretch: expanded;
   font-family: 'SF Pro' !important;
   width: 390px;
@@ -167,50 +316,216 @@ section .content .panel {
   height: 4px;
   border-radius: 2px;
 }
+.youtube {
+  padding-top: 64px;
+  max-width: 1240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  gap: 32px;
+}
+.youtube .pill {
+  padding: 8px 24px;
+  border: 1px solid white;
+  border-radius: 24px;
+}
+.youtube .video {
+  padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+}
+.youtube .video iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: #000;
+  z-index: 5;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
 
+@media screen and (max-width: 390px) {
+  .youtube .video iframe {
+    padding: 0 16px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .youtube .video iframe {
+    padding: 0 32px;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .youtube .video iframe {
+    padding: 0 62px;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .bio .firstRow {
+    padding: 0 !important;
+    max-width: 626px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .bio .firstRow .img {
+    width: 100%;
+  }
+  .bio .firstRow .img > img {
+    width: 100%;
+  }
+  .firstRow .text .title img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 660px) {
+  .firstRow .text {
+    display: flex;
+    width: 100%;
+    gap: 43px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .firstRow .text .title .subtitle {
+    font-size: 12px;
+    font-stretch: expanded;
+  }
+  .bio {
+    margin-top: 80px !important;
+  }
+}
 .bio {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  align-items: center;
-  margin-top: 120px;
-  padding: 120px 0;
-  background-image: url('https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/gcd3azii8foqhitoqd2y.png');
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-  background-size: 70%;
+  margin-top: 164px;
+}
+.bio .firstRow {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
 }
 
-.bio .bioDescription {
+.firstRow .text {
   display: flex;
   flex-direction: column;
-  gap: 22px;
-  align-items: center;
+  justify-content: space-between;
+}
+.text .description {
+  text-align: justify;
   font-stretch: expanded;
+  font-size: 16px;
+  color: #bcbcbc;
+}
+.firstRow .text .subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.secondRow img {
+  animation: slide 10s linear infinite;
+}
+
+.contact {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 64px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.rows {
   max-width: 1240px;
+  padding: 0 32px;
+}
+.rows .rowOne img {
+  width: 100%;
+}
+.rowTwo {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.rowTwo .colOne {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 490px;
+  min-width: 358px;
+}
+.rowTwo .colOne .img img {
+  width: 100%;
+}
+.rowTwo .colOne .desc {
+  padding-bottom: 22px;
+  border-bottom: 0.5px solid white;
+}
+.rowTwo .colOne .desc p {
+  text-align: justify;
 }
 
-.bioDescription h2 {
-  font-size: 32px;
-  font-weight: 500;
+.rowTwo .colTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 570px;
+  min-width: 358px;
+}
+.rowTwo .colTwo img {
+  width: 100%;
+}
+.colTwo .sociaiss {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.sociaiss .icones {
+  display: flex;
+  gap: 22px;
+}
+.sociaiss .icones a {
+  color: white;
+}
+.sociaiss .icones a:hover {
+  color: rgba(255, 255, 255, 0.8);
 }
 
-.bioDescription p {
-  font-size: 24px;
-  text-align: center;
+@media screen and (max-width: 1130px) {
+  .contact .rows {
+
+  }
+  .rows .rowTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+  }
+  .rowTwo .colOne {
+    width: 100%;
+  }
+  .rowTwo .colTwo {
+    display: flex;
+    gap: 100px;
+  }
 }
 
-.bioDescription p:nth-child(4) {
-  margin-bottom: 120px;
-}
-
+/* media screen 1240 */
 @media screen and (max-width: 1240px) {
   section .bannerHero {
     height: 80vh !important;
-  }
-
-  .bio {
-    padding: 64px 120px !important;
   }
 
   .ctaContent {
@@ -231,75 +546,6 @@ section .content .panel {
   max-width: 1240px;
   gap: 120px;
   margin: 0 auto;
-}
-
-.colOne,
-.colTwo {
-  width: 100%;
-  font-stretch: expanded;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-.colOne h2 {
-  font-size: 32px;
-}
-
-.colOne p {
-  font-size: 18px;
-  font-weight: 300;
-}
-
-.colTwo .contacts {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding-bottom: 16px;
-  border-bottom: 0.5px solid #fff;
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.contact .wpp {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.contact .wpp p {
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.colTwo .contacts h2 {
-  font-size: 32px;
-  margin-bottom: 16px;
-}
-
-.colTwo p {
-  font-size: 18px;
-  font-weight: 300;
-}
-
-.colTwo .icons {
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
-}
-
-.icons .icon {
-  display: flex;
-  gap: 22px;
-}
-
-.icons .icon > a {
-  text-decoration: none;
-  color: white;
 }
 
 @media screen and (max-width: 900px) {
@@ -339,8 +585,7 @@ section .content .panel {
   }
 
   .secondColumn .boxMusic {
-    background-image: url('https://res-console.cloudinary.com/dio2dnpmn/media_explorer_thumbnails/15dddf0ffc68affef5ec11bcfeaa6834/detailed');
-    background-size: cover;
+
     height: 390px !important;
     width: 100% !important;
     border-radius: 12px;
@@ -348,10 +593,6 @@ section .content .panel {
 
   .content .bio {
     padding: 0 16px !important;
-  }
-
-  .bio .logoOne img {
-    width: 100%;
   }
 
   .cta .ctaContent {
@@ -394,7 +635,6 @@ section .content .panel {
   .secondColumn .player .bar {
     width: 100px;
   }
-
   .bio .bioDescription p {
     text-align: justify;
     font-size: 16px;

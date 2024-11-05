@@ -8,7 +8,8 @@ import {
   WhatsappLogo,
   SpotifyLogo,
   SoundcloudLogo,
-  InstagramLogo
+  InstagramLogo,
+  YoutubeLogo
 } from '@phosphor-icons/react'
 
 export default function Inicio() {
@@ -39,10 +40,74 @@ export default function Inicio() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  const contatoRef = useRef(null)
+
+  const handleScrollToContato = (event) => {
+    event.preventDefault()
+    contatoRef.current?.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <section>
       <article className={styles.bannerHero}></article>
+      
+      <article className={styles.teste}>
+        <div className={styles.extra}>
+          <img
+            src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730258463/Triade_mb0foi.png"
+            alt=""
+          />
+          <div className={styles.cardzin}>
+            <div className={styles.head}>
+              <p>Me siga</p>
+
+              <div className={styles.sociais}>
+                <a
+                  href="https://www.instagram.com/dollmakerlive/"
+                  target="_blank"
+                >
+                  <InstagramLogo size={32} />
+                </a>
+                <a
+                  href="https://www.youtube.com/@dollmaker626?themeRefresh=1"
+                  target="_blank"
+                >
+                  <YoutubeLogo size={32} />
+                </a>
+                <a
+                  href="https://soundcloud.com/dollmakerlive"
+                  target="_blank"
+                >
+                  <SoundcloudLogo size={32} />
+                </a>
+                <a
+                  href="https://open.spotify.com/intl-pt/artist/7dGmK4sImWkq5ClORKQwIL?si=cFlutIm5RQq06ABT4Au6Iw"
+                  target="_blank"
+                >
+                  <SpotifyLogo size={32} />
+                </a>
+              </div>
+            </div>
+            <div className={styles.button}>
+              <a
+                href="#contato"
+                onClick={handleScrollToContato}
+              >
+                ENTRAR EM CONTATO
+              </a>
+            </div>
+          </div>
+          <img
+            src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730258466/code_hfhhq3.png"
+            alt=""
+          />
+        </div>
+      </article>
       <article className={styles.content}>
+      <div className={styles.bgFixed}>
+          <div className={styles.circleBlue}></div>
+          <div className={styles.circlePurple}></div>
+        </div>
         <div className={styles.panel}>
           <p>Oficial Website</p>
           <p>©</p>
@@ -50,6 +115,19 @@ export default function Inicio() {
           <p>Progressive Trance</p>
           <p>|</p>
           <p>Psy Trance</p>
+        </div>
+        
+        <div className={styles.youtube}>
+          <div className={styles.pill}>
+            <p>ASSISTA MINHA LIVE</p>
+          </div>
+          <div className={styles.video}>
+            <iframe
+               src="https://www.youtube.com/embed/B2OcUn3aDno" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
 
         {/* Adiciona a classe 'visible' condicionalmente */}
@@ -66,7 +144,7 @@ export default function Inicio() {
                   <p>Ethereal Buzz - Dollmaker & Vetala</p>
                 </div>
                 <div className={styles.mid}>
-                  <p>Acesse minhas plataformas musicais e encontre muito mais!</p>
+                  <p>Me siga nas plataformas!</p>
                   <div className={styles.images}>
                     <a href="https://open.spotify.com/intl-pt/artist/7dGmK4sImWkq5ClORKQwIL?si=b6stSiSwR7S57vko92d-YQ">
                       <img src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/reakd3tsuhlxespv5e9s.png" />
@@ -91,98 +169,107 @@ export default function Inicio() {
           </div>
         </div>
 
-        <div className={styles.bio}>
-          <div className={styles.logoOne}>
-            <img src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753881/dollmaker/cwe7itjcmhzs1qgktkry.png" />
-          </div>
-          <div className={styles.logoTwo}>
-            <img src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753880/dollmaker/hle1m7kqksbmpn4ni7up.png" />
-          </div>
-          <div className={styles.bioDescription}>
-            <h2>Biografia</h2>
-            <p>
-              Eduardo Sanches, conhecido artisticamente como Dollmaker, é um talentoso DJ
-              e produtor brasileiro que tem se destacado na cena progressive psytrance.
-              Desde o início de sua carreira em 2016, Dollmaker tem chamado a atenção com
-              seu som inovador, que habilmente mistura elementos de progressive trance e
-              música clássica.
-            </p>
-            <p>
-              Ao longo dos anos, Dollmaker já se apresentou em diversas festas de renome
-              nacional, incluindo eventos icônicos como Progressive, Danghai e
-              Psycodélicos. Sua habilidade de criar atmosferas únicas e envolventes o
-              tornou uma presença constante e aguardada nesses eventos.
-            </p>
-            <p>
-              Dollmaker é amplamente reconhecido por suas produções meticulosamente
-              elaboradas e por seu estilo inconfundível, que combina melodias cativantes,
-              linhas de baixo poderosas e arranjos complexos. Sua música não apenas cativa
-              o público nas pistas de dança, mas também oferece uma experiência auditiva
-              rica e variada, consolidando sua posição como um dos artistas mais
-              promissores da cena psytrance.
-            </p>
-          </div>
-        </div>
 
-        <div className={styles.cta}>
-          <div className={styles.ctaContent}>
-            <div className={styles.colOne}>
-              <h2>Vamos Conversar?</h2>
-              <p>
-                Se você está pronto para levar seu próximo evento a um novo patamar ou
-                deseja discutir uma parceria que vai marcar a cena do Psy Trance, entre em
-                contato comigo! Estou ansioso para ouvir suas ideias e colaborar para
-                criar algo realmente especial.
-              </p>
+        <div className={styles.bio}>
+          <div className={styles.firstRow}>
+            <div className={styles.img}>
+              <img
+                src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730808713/dollmaker/newUpgrade/aksqzpet6z720xibez6c.png"
+                alt=""
+              />
             </div>
 
-            <div className={styles.colTwo}>
-              <div className={styles.contacts}>
-                <h2>Contatos</h2>
-                <div className={styles.contact}>
-                  <div className={styles.wpp}>
-                    <WhatsappLogo size={24} />
-                    <p>WhatsApp</p>
-                  </div>
-                  <p>(41) 99232-9975</p>
-                </div>
-
-                <div className={styles.contact}>
-                  <div className={styles.wpp}>
-                    <EnvelopeOpen size={24} />
-                    <p>E-mail</p>
-                  </div>
-                  <p>dollmakerlive@hotmail.com</p>
+            <div className={styles.text}>
+              <div className={styles.title}>
+                <img
+                  src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730806361/dollmaker/newUpgrade/vx0hv5cihlsz7vrebwgi.png"
+                  alt=""
+                />
+                <div className={styles.subtitle}>
+                  <p>EDUARDO SANCHES</p>
+                  <p>TRIADE TRANCE</p>
+                  <p>BRASILEIRO</p>
                 </div>
               </div>
 
-              <div className={styles.icons}>
-                <p>Redes sociais/Plataformas Musicais</p>
-                <div className={styles.icon}>
-                  <a
-                    href="https://www.instagram.com/dollmakerlive/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.instagramLink}
-                  >
-                    <InstagramLogo size={32} />
-                  </a>
-                  <a
-                    href="https://soundcloud.com/dollmakerlive"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.instagramLink}
-                  >
-                    <SoundcloudLogo size={32} />
-                  </a>
-                  <a
-                    href="https://open.spotify.com/intl-pt/artist/7dGmK4sImWkq5ClORKQwIL?si=X-98tm35QhOOQnoXXyuyfw"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.instagramLink}
-                  >
-                    <SpotifyLogo size={32} />
-                  </a>
+              <div className={styles.description}>
+                <p>
+                Eduardo Sanches, conhecido artisticamente como Dollmaker, é um talentoso DJ e produtor brasileiro que tem se destacado na cena progressive psytrance. Desde o início de sua carreira em 2016, Dollmaker tem chamado a atenção com seu som inovador, que habilmente mistura elementos de progressive trance e música clássica.<br />
+                Ao longo dos anos, Dollmaker já se apresentou em diversas festas de renome nacional, incluindo eventos icônicos como Progressive, Danghai e Psycodélicos. Sua habilidade de criar atmosferas únicas e envolventes o tornou uma presença constante e aguardada nesses eventos.<br />
+                Dollmaker é amplamente reconhecido por suas produções meticulosamente elaboradas e por seu estilo inconfundível, que combina melodias cativantes, linhas de baixo poderosas e arranjos complexos. Sua música não apenas cativa o público nas pistas de dança, mas também oferece uma experiência auditiva rica e variada, consolidando sua posição como um dos artistas mais promissores da cena psytrance.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.secondRow}>
+            <img
+              src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730802432/dollmaker/newUpgrade/s11bjve9r7wd6ftavcx3.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          ref={contatoRef}
+          className={styles.contact}
+          >
+          <div className={styles.rows}>
+            <div className={styles.rowOne}>
+              <img
+                src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730802432/dollmaker/newUpgrade/ovqft2nevh7vqx4u7q1c.png"
+                alt=""
+              />
+            </div>
+            <div className={styles.rowTwo}>
+              <div className={styles.colOne}>
+                <div className={styles.desc}>
+                  <p>
+                    Se você está pronto para levar seu próximo evento a um novo patamar ou
+                    deseja discutir uma parceria que vai marcar a cena do Psy Trance,
+                    entre em contato comigo! Estou ansioso para ouvir suas ideias e
+                    colaborar para criar algo realmente especial.
+                  </p>
+                </div>
+                <div className={styles.img}>
+                  <img
+                    src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730304248/curado_qicz70.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className={styles.colTwo}>
+                <img
+                  src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730802432/dollmaker/newUpgrade/smjggotafnto4ducnsy3.png"
+                  alt=""
+                />
+                <div className={styles.sociaiss}>
+                  <p>Redes sociais/Plataformas músicais</p>
+                  <div className={styles.icones}>
+                    <a
+                      href="https://www.instagram.com/dollmakerlive/"
+                      target="_blank"
+                    >
+                      <InstagramLogo size={32} />
+                    </a>
+                    <a
+                      href="https://www.youtube.com/@dollmaker626"
+                      target="_blank"
+                    >
+                      <YoutubeLogo size={32} />
+                    </a>
+                    <a
+                      href="https://soundcloud.com/dollmakerlive"
+                      target="_blank"
+                    >
+                      <SoundcloudLogo size={32} />
+                    </a>
+                    <a
+                      href="https://open.spotify.com/intl-pt/artist/7dGmK4sImWkq5ClORKQwIL?si=cFlutIm5RQq06ABT4Au6Iw"
+                      target="_blank"
+                    >
+                      <SpotifyLogo size={32} />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
