@@ -53,10 +53,10 @@ export default function Inicio() {
 
       <article className={styles.teste}>
         <div className={styles.extra}>
-          <img
+          {/* <img
             src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730258463/Triade_mb0foi.png"
             alt=""
-          />
+          /> */}
           <div className={styles.cardzin}>
             <div className={styles.head}>
               <p>Me siga</p>
@@ -97,10 +97,10 @@ export default function Inicio() {
               </a>
             </div>
           </div>
-          <img
+          {/* <img
             src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730258466/code_hfhhq3.png"
             alt=""
-          />
+          /> */}
         </div>
       </article>
       <article className={styles.content}>
@@ -112,7 +112,7 @@ export default function Inicio() {
           <p>Oficial Website</p>
           <p>©</p>
           <p>2024</p>
-          <p>Progressive Trance</p>
+          <p>Progressive</p>
           <p>|</p>
           <p>Psy Trance</p>
         </div>
