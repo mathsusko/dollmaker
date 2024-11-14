@@ -3,7 +3,8 @@ import {
   WhatsappLogo,
   InstagramLogo,
   SpotifyLogo,
-  SoundcloudLogo,  YoutubeLogo
+  SoundcloudLogo,
+  YoutubeLogo
 } from '@phosphor-icons/react'
 import styles from './Contato.module.css'
 
@@ -11,13 +12,11 @@ export default function Contato() {
   return (
     <div className={styles.bg}>
       <div className={styles.content}>
-      <div
-          className={styles.contact}
-          >
+        <div className={styles.contact}>
           <div className={styles.rows}>
             <div className={styles.rowOne}>
               <img
-                src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730802432/dollmaker/newUpgrade/ovqft2nevh7vqx4u7q1c.png"
+                src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1731595235/contato_wkmlcl.png"
                 alt=""
               />
             </div>
@@ -33,7 +32,7 @@ export default function Contato() {
                 </div>
                 <div className={styles.img}>
                   <img
-                    src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730304248/curado_qicz70.png"
+                    src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1731595031/LOGO_PNG_mcuyqn.png"
                     alt=""
                   />
                 </div>

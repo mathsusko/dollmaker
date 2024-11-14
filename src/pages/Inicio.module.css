@@ -86,7 +86,6 @@ section .bannerHero {
 }
 
 @media screen and (max-width: 600px) {
-
   .teste .extra {
     display: flex;
     flex-direction: column;
@@ -95,7 +94,6 @@ section .bannerHero {
   }
 }
 @media screen and (max-width: 390px) {
-
   .teste .extra {
     padding: 0 16px !important;
   }
@@ -162,8 +160,6 @@ section .content .panel {
   }
 }
 
-
-
 section .content {
   margin: 0 auto;
 }
@@ -220,7 +216,6 @@ section .content .panel {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 .firstColumn button {
@@ -505,7 +500,6 @@ section .content .panel {
 
 @media screen and (max-width: 1130px) {
   .contact .rows {
-
   }
   .rows .rowTwo {
     display: flex;
@@ -568,6 +562,7 @@ section .content .panel {
   .firstColumn .descriptions {
     width: 100%;
     text-align: center;
+    padding-top: 32px;
   }
 
   .firstColumn {
@@ -585,7 +580,6 @@ section .content .panel {
   }
 
   .secondColumn .boxMusic {
-
     height: 390px !important;
     width: 100% !important;
     border-radius: 12px;
@@ -597,6 +591,9 @@ section .content .panel {
 
   .cta .ctaContent {
     padding: 0 16px !important;
+  }
+  .firstRow .text .description {
+    padding-top: 32px;
   }
 }
 
@@ -638,5 +635,8 @@ section .content .panel {
   .bio .bioDescription p {
     text-align: justify;
     font-size: 16px;
+  }
+  .firstRow .text {
+    gap: 16px !important;
   }
 }

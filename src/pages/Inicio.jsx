@@ -50,7 +50,7 @@ export default function Inicio() {
   return (
     <section>
       <article className={styles.bannerHero}></article>
-      
+
       <article className={styles.teste}>
         <div className={styles.extra}>
           <img
@@ -104,7 +104,7 @@ export default function Inicio() {
         </div>
       </article>
       <article className={styles.content}>
-      <div className={styles.bgFixed}>
+        <div className={styles.bgFixed}>
           <div className={styles.circleBlue}></div>
           <div className={styles.circlePurple}></div>
         </div>
@@ -116,14 +116,14 @@ export default function Inicio() {
           <p>|</p>
           <p>Psy Trance</p>
         </div>
-        
+
         <div className={styles.youtube}>
           <div className={styles.pill}>
             <p>ASSISTA MINHA LIVE</p>
           </div>
           <div className={styles.video}>
             <iframe
-               src="https://www.youtube.com/embed/B2OcUn3aDno" 
+              src="https://www.youtube.com/embed/B2OcUn3aDno"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
@@ -169,7 +169,6 @@ export default function Inicio() {
           </div>
         </div>
 
-
         <div className={styles.bio}>
           <div className={styles.firstRow}>
             <div className={styles.img}>
@@ -182,41 +181,55 @@ export default function Inicio() {
             <div className={styles.text}>
               <div className={styles.title}>
                 <img
-                  src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730806361/dollmaker/newUpgrade/vx0hv5cihlsz7vrebwgi.png"
+                  src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1731592582/DOLLMAKER_PROGRESSIVE_TRANCE_xcqdfo.png"
                   alt=""
                 />
-                <div className={styles.subtitle}>
+                {/* <div className={styles.subtitle}>
                   <p>EDUARDO SANCHES</p>
                   <p>TRIADE TRANCE</p>
                   <p>BRASILEIRO</p>
-                </div>
+                </div> */}
               </div>
 
               <div className={styles.description}>
                 <p>
-                Eduardo Sanches, conhecido artisticamente como Dollmaker, é um talentoso DJ e produtor brasileiro que tem se destacado na cena progressive psytrance. Desde o início de sua carreira em 2016, Dollmaker tem chamado a atenção com seu som inovador, que habilmente mistura elementos de progressive trance e música clássica.<br />
-                Ao longo dos anos, Dollmaker já se apresentou em diversas festas de renome nacional, incluindo eventos icônicos como Progressive, Danghai e Psycodélicos. Sua habilidade de criar atmosferas únicas e envolventes o tornou uma presença constante e aguardada nesses eventos.<br />
-                Dollmaker é amplamente reconhecido por suas produções meticulosamente elaboradas e por seu estilo inconfundível, que combina melodias cativantes, linhas de baixo poderosas e arranjos complexos. Sua música não apenas cativa o público nas pistas de dança, mas também oferece uma experiência auditiva rica e variada, consolidando sua posição como um dos artistas mais promissores da cena psytrance.
+                  Eduardo Sanches, conhecido artisticamente como Dollmaker, é um talentoso
+                  DJ e produtor brasileiro que tem se destacado na cena progressive
+                  psytrance. Desde o início de sua carreira em 2016, Dollmaker tem chamado
+                  a atenção com seu som inovador, que habilmente mistura elementos de
+                  progressive trance e música clássica.
+                  <br />
+                  Ao longo dos anos, Dollmaker já se apresentou em diversas festas de
+                  renome nacional, incluindo eventos icônicos como Progressive, Danghai e
+                  Psycodélicos. Sua habilidade de criar atmosferas únicas e envolventes o
+                  tornou uma presença constante e aguardada nesses eventos.
+                  <br />
+                  Dollmaker é amplamente reconhecido por suas produções meticulosamente
+                  elaboradas e por seu estilo inconfundível, que combina melodias
+                  cativantes, linhas de baixo poderosas e arranjos complexos. Sua música
+                  não apenas cativa o público nas pistas de dança, mas também oferece uma
+                  experiência auditiva rica e variada, consolidando sua posição como um
+                  dos artistas mais promissores da cena psytrance.
                 </p>
               </div>
             </div>
           </div>
 
-          <div className={styles.secondRow}>
+          {/* <div className={styles.secondRow}>
             <img
               src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730802432/dollmaker/newUpgrade/s11bjve9r7wd6ftavcx3.png"
               alt=""
             />
-          </div>
+          </div> */}
         </div>
         <div
           ref={contatoRef}
           className={styles.contact}
-          >
+        >
           <div className={styles.rows}>
             <div className={styles.rowOne}>
               <img
-                src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730802432/dollmaker/newUpgrade/ovqft2nevh7vqx4u7q1c.png"
+                src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1731595235/contato_wkmlcl.png"
                 alt=""
               />
             </div>
@@ -232,7 +245,7 @@ export default function Inicio() {
                 </div>
                 <div className={styles.img}>
                   <img
-                    src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1730304248/curado_qicz70.png"
+                    src="https://res.cloudinary.com/dio2dnpmn/image/upload/v1731595031/LOGO_PNG_mcuyqn.png"
                     alt=""
                   />
                 </div>
