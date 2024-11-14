@@ -225,6 +225,7 @@ section .content .panel {
   color: #fff;
   border: none;
   cursor: pointer;
+  font-size: 22px;
 }
 .firstColumn button:hover {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
