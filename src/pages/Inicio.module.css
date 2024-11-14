@@ -621,6 +621,9 @@ section .content .panel {
   .card .firstColumn .descriptions {
     gap: 22px;
   }
+  .firstColumn button {
+    font-size: 18px;
+  }
 
   .card .firstColumn .descriptions .head h2 {
     font-size: 32px;
