@@ -174,7 +174,7 @@ const musicData = [
     imageUrl:
       'https://res.cloudinary.com/dio2dnpmn/image/upload/v1727877333/capa_bellrabbit_fnbc7x.jpg',
     audioUrl:
-      'https://res.cloudinary.com/dio2dnpmn/video/upload/v1727877279/MP3_-_Dezco_-_Ascend_Dollmaker_Bootleg_f5k5ov.mp3',
+      'https://res.cloudinary.com/dio2dnpmn/video/upload/v1727877291/MP3_-_Dollmaker_-_Bellrabbit_klca6l.mp3',
     spotifyUrl:
       'https://res.cloudinary.com/dio2dnpmn/image/upload/v1725753882/dollmaker/reakd3tsuhlxespv5e9s.png',
     soundcloudUrl:
