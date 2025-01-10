@@ -59,7 +59,7 @@ export default function Inicio() {
           /> */}
           <div className={styles.cardzin}>
             <div className={styles.head}>
-              <p>Me siga</p>
+              <p>Siga me</p>
 
               <div className={styles.sociais}>
                 <a
